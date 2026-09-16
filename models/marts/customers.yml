@@ -72,7 +72,7 @@ models:
 
 metrics:
   - name: average_order_value
-    description: LTV pre-tax / number of orders
+    description: Confirmed LTV pre-tax / number of orders
     label: Average Order Value
     type: derived
     expr: lifetime_spend_pretax / count_lifetime_orders
